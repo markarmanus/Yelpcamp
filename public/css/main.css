@@ -1,0 +1,19 @@
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail{
+    padding: 0;
+}
+.form-title{
+    text-align: center;
+}
+.form-div{
+    width:30%;
+    margin:30px auto;
+}
+.inline-form{
+    display: inline;
+}
+.btn{
+    margin: 3px;
+}
