@@ -19,7 +19,7 @@ var campgroundRoutes  = require("./routes/campgrounds"),
     
 // seedDB();
 app.use(express.static(__dirname +"/public"));
-    
+
 // mongoose.connect("mongodb://localhost/yelp_camp");
 mongoose.connect(process.env.DATABASEURL);
 
