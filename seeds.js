@@ -1,3 +1,4 @@
+// seeding file used for debuging
 var mongoose = require("mongoose");
 var Campground = require("./models/campground");
 var data = [
