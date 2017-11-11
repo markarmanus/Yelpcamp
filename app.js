@@ -23,8 +23,8 @@ app.use(express.static(__dirname +"/public"));
 
 // conneting to mongose data base
 
-mongoose.connect("mongodb://localhost/yelp_camp");
-// mongoose.connect(process.env.DATABASEURL);
+// mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect(process.env.DATABASEURL);
 
 // telling express to use package body-parser
 app.use(bodyParser.urlencoded({extended: true}));
